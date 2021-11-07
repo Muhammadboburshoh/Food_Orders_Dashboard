@@ -1,0 +1,92 @@
+.products_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.order_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orders {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.order_item {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order_item:hover {
+  background-color: #f7f8fa;
+}
+
+.products {
+  min-width: 200px;
+}
+
+.product_counts {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.orders-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.false-status, .true-status {
+  /* background-color: rgb(255, 251, 251); */
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.false-status {
+  margin-right: 20px;
+}
+
+.status-color {
+  background-color: #ddd;
+}
+
+.products_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-status, .delete-order {
+  border: none;
+  background: none;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.edit-status {
+  background-color: #4BB543;
+  width: 200px;
+}
+
+.edit-status:hover {
+  background-color: #2c6b27;
+}
+
+.delete-order {
+  background-color: #D11A2A;
+  width: 150px;
+}
+
+.delete-order:hover {
+  background-color: #a41421;
+}

@@ -1,0 +1,216 @@
+.main-wrapper {
+  display: flex;
+}
+
+.sidebar-wrapper {
+  max-width: 270px;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.content-wrapper {
+  height: 100vh;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #f7f8fa;
+}
+
+.order-wrapper {
+  padding: 20px;
+}
+
+
+.orders-table__wrapper {
+  width: 100%;
+  max-width: 900px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.orders-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.orders-table__head {
+  width: 100%;
+}
+
+.orders-table__body {
+  width: 100%;
+}
+
+.orders-table__head-th {
+  font-weight: 600;
+}
+
+.orders-table__body-td,
+.orders-table__head-th {
+  /* padding: 15px 10px; */
+  font-weight: 500;
+  font-size: 16px;
+  
+  /* line-height: px; */
+  /* color: #313131; */
+}
+
+.orders-table__head-th {
+  font-weight: 600;
+}
+
+
+.orders-table__body-tr,
+.orders-table__head-tr {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.orders-table__body-td-name {
+  margin: 0;
+}
+
+.orders-table__body-td-name-link {
+  text-decoration: none;
+  color: #313131;
+}
+
+.orders-table__body-tr:hover {
+  background-color: #f7f8fa;
+}
+
+
+.orders-table__body-td-link {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #313131;
+  text-decoration: none;
+}
+
+.orders-table__body-td-map-link {
+  text-decoration: none;
+  color: #ff5a5a;
+}
+
+.orders-table__body-td--pending {
+  width: 100%;
+  max-width: 110px;
+  padding: 7px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffb740;
+  color: #fff;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity .3s ease;
+}
+
+.orders-table__body-td--pending:hover {
+  opacity: 0.6;
+}
+
+.orders-table__body-td--more-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.orders-table__controller {
+  width: 110px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.table-controller__btn {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 34px;
+  color: #515977;
+  background-color: transparent;
+  border: 1px solid #a5a5a5;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color .2s ease,color .2s ease;
+}
+
+.table-controller__btn,
+.tables-controllers__wrapper {
+  display: flex;
+}
+
+.table-controller__btn--next,
+.table-controller__btn--prev {
+  background-color: transparent;
+  border: none;
+}
+
+.table-controller__btn:hover {
+  background-color: #515977;
+  color: #fff;
+}
+
+.cretae-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cretae-table  label {
+  margin-right: 20px;
+}
+
+.create-tablebtn {
+  border-radius: 5px;
+  width: 120px;
+}
+
+.delete-table {
+
+  background-color: #D11A2A;
+  width: 150px;
+  height: 40px;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer
+
+}
+
+.delete-table:hover {
+  background-color: #a41421;
+}
+
+
+.edit-table {
+  background-color: #4BB543;
+  width: 150px;
+  /* height: 40px; */
+  color: #ffff;
+  padding: 7px;
+  border-radius: 20px;
+  cursor: pointer
+}
